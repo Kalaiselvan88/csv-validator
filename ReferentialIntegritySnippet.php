@@ -1,12 +1,12 @@
 <?php
-// Below snippet in main class checks if the csv file is having columns
-// that needs to be checked for referential integrity.
-// In these cases we store the values in temp table from a temp store.
-if ($csvname == 'filename') {
+  // Below snippet in main class checks if the csv file is having columns 
+  // that needs to be checked for referential integrity.
+  // In these cases we store the values in temp table from a temp store.
+  if ($csvname == 'filename') {
     $primary_ids = explode(',', $store->get($csvname));
     $this->addToTempTable('temp_table', 'column_name', $column_value);
   }
-
+  
   // Later we check in below function if the IDs are present in temp table
   // or in Drupal database.
   /**

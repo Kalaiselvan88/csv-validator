@@ -1,16 +1,16 @@
 <?php
 class Validator {
-    /**
-      * Validates 1 CSV file.
-      *
-      * @param string $csvname
-      *   The csv file name value.
-      * @param int $index
-      *   The index of the $row.
-      * @param array $row
-      *   The data in the row.
-      *
-      */
+  /**
+    * Validates 1 CSV file.
+    *
+    * @param string $csvname
+    *   The csv file name value.
+    * @param int $index
+    *   The index of the $row.
+    * @param array $row
+    *   The data in the row.
+    *
+    */
     public function validateFileName($csvname, $index, array $row) {
       // The below array will map each constraint in constraint class to every column.
       $data_array = [
