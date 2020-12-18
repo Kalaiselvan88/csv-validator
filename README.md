@@ -1,4 +1,4 @@
-# csv-validator
+# CSV-Validator
 Repository containing a set of files used for validating CSV files in Drupal 8.x.
 
 # Disclaimer
